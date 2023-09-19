@@ -1,0 +1,11 @@
+header {
+    background-color: orange;
+    height: 13rem;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 3rem;
+    text-decoration: underline;
+}
