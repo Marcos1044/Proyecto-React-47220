@@ -1,3 +1,7 @@
+nav {   
+    background-color: rgb(38, 38, 204);
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -6,9 +10,13 @@ ul {
 }
 
 li {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 10px;
     list-style: none;
-    text-decoration: underline;
-    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

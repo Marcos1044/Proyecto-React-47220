@@ -2,15 +2,18 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <nav>
-        <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Tienda</a></li>
-            <li><a href="">Contactos</a></li>
-            <li><a href="">Galeria</a></li>
-            <li><a href="">Nosotros</a></li>
-        </ul>
-    </nav>
+    <div>
+      <nav>
+          <ul>
+              <li><a href="">Categorias</a></li>
+              <li><a href="">Fragancias</a></li>
+              <li><a href="">Maquillaje</a></li>
+              <li><a href="">Dermocosmetica</a></li>
+              <li><a href="">Electro</a></li>
+              <li><a href="">Pedidos-Farmacia</a></li>
+          </ul>
+        </nav>
+    </div>
   );
 };
 
