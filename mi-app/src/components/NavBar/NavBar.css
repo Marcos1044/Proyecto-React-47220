@@ -10,7 +10,7 @@ ul {
     gap: 40px;
 }
 
-li {
+.listado {
     font-size: 1.6rem;
     margin: 10px;
     list-style: none;

@@ -1,4 +1,46 @@
 .publicidad {
-    width: 50%;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
+
+.carrito_compra {
+    width: 60px;
+    height: 50px;
+}
+
+.container_iconos_publicidad {
+    display: flex;
+    height: 175px;
+    justify-content: space-evenly;
+    background-color: rgba(224, 220, 220, 0.951);
+}
+
+.container_imagen_1 {
+    padding-left: 30px;
+}
+
+.container_imagen_2 {
+    padding-left: 75px;
+}
+
+.container_imagen_3 {
+    padding-left: 25px;
+}
+
+.container_imagen_4 {
+    padding-left: 85px;
+}
+
+.container_iconos {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+}
+
+.container_iconos p {
+    font-size: 15px;
+    margin: 10px;
+    padding-right: 50px;
+}
+
