@@ -7,8 +7,18 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return ( 
       <div>
+        <div className='div-logo'>
+              <Link to="/"><img className='logo' src="/img/Aguila/Logo/logo.png" alt="" /></Link>
+
+                <label>
+                    <span></span>
+                    <input className='buscador' type="text" id="buscador" placeholder="¿Que estas buscando?" />
+                </label>
+                <a href="" className='ingresar'><img src="" alt="" />Ingresar</a>    
+        </div>
         <nav>
             <ul>
+                <Link to="/"></Link>
                 <Link className='listado' to="/categorias"><a href="">Categorias</a></Link>
                 <Link className='listado' to="/fragancias"><a href="">Fragancias</a></Link>
                 <Link className='listado' to="/maquillaje"><a href="">Maquillaje</a></Link>

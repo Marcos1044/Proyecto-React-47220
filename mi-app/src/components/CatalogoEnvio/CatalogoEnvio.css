@@ -1,8 +1,3 @@
-.carrito_compra {
-    width: 60px;
-    height: 50px;
-}
-
 .container_iconos_publicidad {
     display: flex;
     height: 175px;
@@ -38,16 +33,3 @@
     margin: 10px;
     padding-right: 50px;
 }
-
-.cardComponent {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 20px;
-    margin: 10px;
-}
-
-.spinner {
-    display: flex;
-    justify-content: center;
-}
-
