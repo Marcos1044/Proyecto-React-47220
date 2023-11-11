@@ -46,7 +46,7 @@ const Main = () => {
           <div className='cardComponent'>
             {productos.map((productos) => {
             return (
-              <Link to={`detalle/${productos.id}`} key={productos.id}>
+              <Link to={`/detalle/${productos.id}`} key={productos.id}>
                 <CardComponent key={productos.id} productos={productos}/>;
               </Link>
              )

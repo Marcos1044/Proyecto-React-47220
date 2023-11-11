@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header';
-import Main from './components/Main/main';
+import Main from './components/Main/Main';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -11,6 +11,7 @@ import Dermocosmetica from './components/pages/Dermocosmetica/Dermocosmetica';
 import Electro from './components/pages/Electro/Electro';
 import PedidosFarmacia from './components/pages/PedidosFarmacias/PedidoFarmacia';
 import DetallesProductos from './components/pages/DetallesProductos/DetallesProductos';
+import PosicionProductos from './components/pages/PosicionProductos/PosicionProductos';
 
 
 function App() {
@@ -27,11 +28,12 @@ function App() {
               <Route path='/electro' element={<Electro />}/>
               <Route path='/pedidosFarmacia' element={<PedidosFarmacia />}/>
               <Route path='/detalle/:id' element={<DetallesProductos />} />
+              <Route path='/posicion-Producto/:filtro' element={<PosicionProductos />} />
         </Routes>
     </Router>
     </>
   )
 }
 
-export default App
+export default App;
 

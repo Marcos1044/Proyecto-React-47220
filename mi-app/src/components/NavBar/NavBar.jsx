@@ -18,13 +18,12 @@ const NavBar = () => {
         </div>
         <nav>
             <ul>
-                <Link to="/"></Link>
-                <Link className='listado' to="/categorias"><a href="">Categorias</a></Link>
-                <Link className='listado' to="/fragancias"><a href="">Fragancias</a></Link>
-                <Link className='listado' to="/maquillaje"><a href="">Maquillaje</a></Link>
-                <Link className='listado' to="/dermocosmetica"><a href="">Dermocosmetica</a></Link>
-                <Link className='listado' to="/electro"><a href="">Electro</a></Link>
-                <Link className='listado' to="/pedidosFarmacia"><a href="">Pedidos-Farmacia</a></Link>
+                <Link className='listado' to="/posicion-Producto/categorias">Categorias</Link>
+                <Link className='listado' to="/posicion-Producto/fragancias">Fragancias</Link>
+                <Link className='listado' to="/posicion-Producto/maquillaje">Maquillaje</Link>
+                <Link className='listado' to="/posicion-Producto/dermocosmetica">Dermocosmetica</Link>
+                <Link className='listado' to="/posicion-Producto/electro">Electro</Link>
+                <Link className='listado' to="/pedidosFarmacia">Pedidos-Farmacia</Link>
                 <Link className='listado'><a href=""><CartWidget/></a></Link>
             </ul>
           </nav>
@@ -32,4 +31,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar
+export default NavBar;

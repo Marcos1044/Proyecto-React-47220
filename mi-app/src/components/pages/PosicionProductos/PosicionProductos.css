@@ -1,0 +1,12 @@
+.containerTitulo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.containerCard {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-content: center;
+   margin-left: 80px;
+}

@@ -42,8 +42,9 @@
 .cardComponent {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    justify-content: center;
     padding: 20px;
-    margin: 10px;
+    margin-left: 50px;
 }
 
 .spinner {
